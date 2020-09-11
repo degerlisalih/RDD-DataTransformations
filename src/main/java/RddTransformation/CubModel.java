@@ -15,7 +15,9 @@ public class CubModel implements Serializable {
  private  String toplamMac;
  private  String toplamKatilimciSayisi;
 
-    public CubModel(String yil, String evSahibi, String birinci, String ikinci, String ucuncu, String dorduncu, int toplamGol, String toplamUlke, String toplamMac, String toplamKatilimciSayisi) {
+    public CubModel(String yil, String evSahibi, String birinci, String ikinci,
+                    String ucuncu, String dorduncu, int toplamGol, String toplamUlke,
+                    String toplamMac, String toplamKatilimciSayisi) {
         this.yil = yil;
         this.evSahibi = evSahibi;
         this.birinci = birinci;

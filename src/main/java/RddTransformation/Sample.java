@@ -1,7 +1,7 @@
-/**
- * dataset içerisinden örnek bir veri kümesi çeker.
- * ne kadarlık bir veri çekecegini fraction değeri belirler.
- */
+
+ // dataset içerisinden örnek bir veri kümesi çeker.
+ // ne kadarlık bir veri çekecegini fraction değeri belirler.
+
 package RddTransformation;
 
 import org.apache.spark.api.java.JavaRDD;
@@ -13,12 +13,7 @@ public class Sample extends Connection {
 
         JavaRDD<String> sampleRDD = raw_data.sample(false, 0.5);
 
-        sampleRDD.foreach(new VoidFunction<String>() {
-
-            public void call(String s) throws Exception {
-                System.out.println(s);
-            }
-        });
+        sampleRDD.foreach((VoidFunction<String>) System.out::println);
 
     }
 }

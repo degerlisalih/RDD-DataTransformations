@@ -1,6 +1,6 @@
-/**
- * iki rdd yi birleştirmede kullanılır.
- */
+
+ // iki rdd yi birleştirmede kullanılır.
+
 package RddTransformation;
 
 import org.apache.spark.api.java.JavaRDD;

@@ -1,7 +1,7 @@
-/**
- * veri içerisindeki bir birinin aynısı olan satırlardan birini siler ve
- * olusan veriyi yeni bir rdd ye atar.
- */
+
+ // veri içerisindeki bir birinin aynısı olan satırlardan birini siler ve
+ // olusan veriyi yeni bir rdd ye atar.
+
 package RddTransformation;
 
 import org.apache.spark.api.java.JavaRDD;
